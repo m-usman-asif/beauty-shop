@@ -1,0 +1,421 @@
+@media only screen and (max-width:1920px){}
+@media only screen and (max-width:1800px){
+    .bannerSection {
+        background: url(../images/banner-1800.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 665px
+    }
+}
+@media only screen and (max-width:1600px){
+
+}
+@media only screen and (max-width:1540px){
+    .bannerSection {
+        background: url(../images/banner-1540.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 620px;
+    }
+}
+@media only screen and (max-width:1440px){
+    .bannerSection {
+        max-height: 570px;
+    }
+}
+@media only screen and (max-width:1366px){
+    .bannerSection {
+        background: url(../images/banner-1300.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 550px;
+    }
+}
+@media only screen and (max-width:1280px){
+    .bannerSection {
+        max-height: 520px;
+    }
+}
+@media only screen and (max-width:1200px){
+    .bannerSection {
+        max-height: 440px;
+    }
+    .indexSecTwo .brandsGrid .leftCol, .indexSecTwo .brandsGrid .rightCol {
+        min-height: 270px;
+    }
+    /* Collections Page */
+    .prodViewRead .btnGlobal {
+        padding: 10px 30px;
+    }
+}
+@media only screen and (max-width:1170px){}
+@media only screen and (max-width:1040px){}
+@media only screen and (max-width:1024px){
+    .deskTopViewHeader {
+        display: none;
+    }
+    .mobileViewHeader {
+        display: flex;
+    }
+    .fixedBottomMenu {
+        display: flex;
+    }
+    .bannerSection {
+        background: url(../images/banner-1025.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 425px;
+    }
+    .indexSecTwo .brandsGrid .leftCol, .indexSecTwo .brandsGrid .rightCol {
+        min-height: 260px;
+    }
+    .prodActions img {
+        max-width: unset;
+        max-height: 220px;
+    }
+    .indexSecThree .leftCol, .indexSecThree .rightCol {
+        min-height: 320px;
+    }
+    .indexSecFive .leftCol, .indexSecFive .rightCol {
+        min-height: 320px;
+    }
+    .footerBottom {
+        padding-bottom: 80px;
+    }
+    /* Collections Page */
+    .fiveProd {
+        display: none;
+    }
+    .sixProd {
+        display: none;
+    }
+    .fiveProdWrapper .prodWrapper {
+        width: 24%;
+    }
+    .sixProdWrapper .prodWrapper {
+        width: 24%;
+        margin-bottom: 50px;
+    }
+    /* Rtl Floating Menu */
+    html[lang=ar] .floatingMenu {
+        left: unset;
+        right: 0;
+        transform: translate3d(104%,0,0);
+    }
+    html[lang=ar] .floatingMenu .deskMenuBar .offerLabels {
+        right: unset;
+        left: 10%;
+    }
+    html[lang=ar] .floatingMenu .deskMenuBar li a i {
+        margin-right: unset;
+        margin-left: 10px;
+    }
+    html[lang=ar] .drawerCatgWrap .catgDropDown li a .offerLabels {
+        right: unset;
+        left: 30%;
+    }
+    html[lang=ar] .drawerCatgWrap .catgDropDown li a img {
+        margin-right: unset;
+        margin-left: 10px;
+    }
+    html[lang=ar] .floatingMenu.active {
+        transform: translate3d(0%,0,0);
+    }
+}
+@media only screen and (max-width:991px){
+    .bannerSection {
+        background: url(../images/banner-991.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 370px;
+    }
+    .indexSecTwo .brandsGrid .leftCol, .indexSecTwo .brandsGrid .rightCol {
+        min-height: 200px;
+    }
+    .blogSection .leftCol, .blogSection .rightCol {
+        min-height: unset;
+    }
+    .subscriptionForm form {
+        width: 60%;
+    }
+    .appDownloadBar {
+        column-gap: 10px;
+    }
+    .appDownloadBar img {
+        max-width: 90px;
+    }
+    /* Collections Page */
+    .prodViewRead .btnGlobal {
+        padding: 7px 15px;
+    }
+    .fourProdWrapper .prodWrapper {
+        width: 32%;
+    }
+    /* Cart Page Responsive */
+    .prodGridHeader {
+        display: none;
+    }
+    .cartProductsList .colFirst {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cartProdProfileDesc a {
+        text-align: center;
+    }
+    .cartProdPrice .prodPricing span {
+        display: block;
+    }
+}
+@media only screen and (max-width:910px){}
+@media only screen and (max-width:860px){
+    .bannerSection {
+        background: url(../images/banner-860.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 320px;
+    }
+}
+@media only screen and (max-width:767px){
+    .hideOnMobile {
+        display: none;
+    }
+    .indexSecTwo .brandsGrid .leftCol, .indexSecTwo .brandsGrid .rightCol {
+        min-height: 150px;
+    }
+    .indexSecTwo {
+        padding-top: 20px;
+    }
+    .prodPricing {
+        text-align: center;
+    }
+    .prodActions img {
+        max-width: unset;
+        max-height: 260px;
+    }
+    .indexSecThree .leftCol, .indexSecThree .rightCol {
+        min-height: 240px;
+        border-radius: 5px;
+    }
+    .indexSecFour .wrapFlexBetween {
+        flex-wrap: wrap;
+    }
+    .indexSecFour .leftCol {
+        margin-bottom: 30px;
+    }
+    .indexSecFour .leftCol, 
+    .indexSecFour .rightCol {
+        width: 100%;
+    }
+    .prodListingWrapper .prodInfo .prodName {
+        text-align: left;
+    }
+    .indexSecFour .prodInfo .prodPricing {
+        text-align: left;
+    }
+    .indexSecFive .leftCol, .indexSecFive .rightCol {
+        min-height: 240px;
+        border-radius: 10px;
+    }
+    .subscriptionForm form {
+        width: 80%;
+    }
+    .footerRow {
+        flex-wrap: wrap;
+    }
+    .footerCol {
+        width: 48%;
+    }
+    .lastCol {
+        text-align: left !important;
+    }
+    .appDownloadBar {
+        justify-content: flex-start;
+    }
+    .lastCol .socialLinks {
+        justify-content: flex-start;
+    }
+    .prodDetailInfo {
+        margin-top: 30px;
+    }
+    /* Collections Page */
+    .oneProdWrapper .prodWrapper {
+        flex-wrap: wrap;
+    }
+    .oneProdWrapper .prodWrapper .prodRelatedDesc {
+        width: 100%;
+        margin: 30px 0;
+    }
+    .oneProdWrapper .prodWrapper .prodActions, 
+    .oneProdWrapper .prodWrapper .prodViewRead {
+        width: 100%;
+    }
+    .fourProd {
+        display: none;
+    }
+    .threeProdWrapper .prodWrapper {
+        width: 49%;
+    }
+    .sixProdWrapper .prodWrapper {
+        width: 32%;
+    }
+    /* Cart Page Css */
+    .productGridBody {
+        flex-wrap: wrap;
+    }
+    .cartProductsList .colFirst,
+    .cartProductsList .colSec,
+    .cartProductsList .colThird,
+    .cartProductsList .colFourth {
+        width: 100%;
+    }
+    .cartProdProfileDesc a {
+        display: block;
+        width: 100%;
+    }
+    .cartProductsList .colThird {
+        margin: 15px 0;
+    }
+    .cartFinalSection .progress {
+        width: 75%;
+    }
+    /* RTl Footer */
+    html[lang=ar] .footerCol.lastCol h5.secTitle{
+        text-align: right !important;
+    }
+}
+@media only screen and (max-width:740px){
+    .bannerSection {
+        background: url(../images/banner-740.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 260px;
+    }
+}
+@media only screen and (max-width:600px){
+    .bannerSection {
+        background: url(../images/banner-600.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        max-height: 220px;
+    }
+}
+@media only screen and (max-width:575px){
+    .indexSecThree .leftCol, 
+    .indexSecThree .rightCol {
+        min-height: 200px;
+    }
+    .colContent img {
+        max-width: 120px;
+    }
+    .indexSecFive .leftCol, 
+    .indexSecFive .rightCol {
+        min-height: 200px;
+    }
+    .allBrandsWrapper {
+        flex-wrap: wrap;
+    }
+    .allBrandsWrapper a {
+        width: 48%;
+    }
+    .subscriptionForm form {
+        width: 100%;
+    }
+    /* Collection Page */
+    .fourProdWrapper .prodWrapper {
+        width: 49%;
+    }
+}
+@media only screen and (max-width:480px) {
+    .indexSecTwo .brandsGrid .leftCol, 
+    .indexSecTwo .brandsGrid .rightCol {
+        min-height: 90px;
+        border-radius: 10px;
+    }
+    .indexSecThree .leftCol, 
+    .indexSecThree .rightCol {
+        min-height: 150px;
+    }
+    .colContent p {
+        font-size: 20px;
+    }
+    .indexSecFive .leftCol, 
+    .indexSecFive .rightCol {
+        min-height: 150px;
+    }
+    .subscriptionForm form .formInnerWrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .subscriptionForm form input {
+        width: 100%;
+    }
+    .subscriptionForm form .btnGlobal {
+        width: 100%;
+    }
+    .footerCol {
+        width: 100%;
+    }
+    .prodQtyAvailability .btnGlobal {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    /* Collections Page */
+    .twoProdWrapper .prodWrapper {
+        width: 100%;
+    }
+    .threeProdWrapper .prodWrapper {
+        width: 100%;
+    }
+    .fourProdWrapper .prodWrapper {
+        width: 100%;
+    }
+    .sixProdWrapper .prodWrapper {
+        width: 48%;
+    }
+}
+@media only screen and (max-width:385px){
+    .floatingMenu {
+        width: 280px;
+    }
+    .fixedBottomMenu .bottomMenuItem {
+        flex: 1 0 25%;
+    }
+    .prodDetailInfo .prodPricing span {
+        font-size: 18px;
+    }
+    .prodQtyAvailability .prodQuantity {
+        width: 100px;
+    }
+    .prodQtyAvailability .btnGlobal {
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+    /* Collections Page */
+    .prodListFilter .filters {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .sixProdWrapper .prodWrapper {
+        width: 100%;
+    }
+    /* Cart Page */
+    .promotionalText {
+        text-align: left;
+    }
+    .cartFinalSection .progress {
+        width: 100%;
+    }
+    .cartActionBar .btnGlobal {
+        padding: 10px 15px;
+    }
+}
+@media only screen and (max-width:360px){
+    .bannerSection {
+        background: url(../images/banner-360.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 135px;
+    }
+}

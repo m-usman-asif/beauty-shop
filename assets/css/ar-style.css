@@ -1,0 +1,89 @@
+html[lang=ar] {
+    direction: rtl;
+    text-align: right;
+}
+@font-face {
+	font-family: 'DIN Next LT REGULAR';
+	src: url(../fonts/din-next-lt-regular.otf);
+	font-display: swap;
+}
+h1,h2,h3,h4,h5,h6,p,span,ul,li,a,.btn-default,textarea {  margin: 0;  padding: 0;}
+* {  margin: 0;  padding: 0;}
+a,
+a:hover,
+a:focus {
+  	text-decoration: none;
+  	color: inherit;
+}
+ul {
+  	padding: 0;
+}
+li {
+  list-style-type: none;
+}
+button {
+	border: none;
+	outline: none;
+	background: none;
+}
+body {
+  	overflow-x: hidden;
+  	font-family: 'DIN Next LT REGULAR';
+  	position: relative;
+  	scroll-behavior: smooth;
+  	background: #ffffff;
+}
+.container {
+  	max-width: 1200px;
+}
+select,
+input {
+  	outline: none;
+  	border: none;
+  	box-shadow: none;
+	background: transparent;
+}
+
+/* Header Bottom Bar */
+html[lang=ar] .bottomBar .catgDropDown li .offerLabels {
+    right: unset;
+    left: 20px;
+}
+html[lang=ar] .bottomBar .catgDropDown li a img {
+    margin: 0 0 0 5px;
+}
+html[lang=ar] .indexSecFour .secTitle {
+    text-align: right;
+}
+
+/* Brands Page */
+html[lang=ar] .brands_page_item ul {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+/* Cart Page */
+html[lang=ar] .cartFinalSection {
+    text-align: left;
+}
+html[lang=ar] .cartFinalSection .progress {
+    margin: 20px auto 20px 0;
+    direction: ltr;
+}
+html[lang=ar] .promotionalText {
+    direction: ltr;
+}
+
+/* Product Detail Page */
+html[lang=ar] .prodImageWrapper .offerLabels {
+    right: unset;
+    left: 5px;
+}
+html[lang=ar] .productDescWrapper .accordion-button::after {
+    position: absolute;
+    left: 20px;
+}
+/* Footer */
+html[lang=ar] .footerCol a:hover {
+    color: #ffffff;
+}
